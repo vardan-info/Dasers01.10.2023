@@ -1,0 +1,10 @@
+public class Comma {
+    public static void main(String[] args) {
+        for (int i = 90, h = 60,k = 70, j = 80; i > j; ) {
+            System.out.println("i = " + i);
+            System.out.println("j = " + j);
+            System.out.println("k = " + k);
+             System.out.println("h = " + h);
+        }
+    }
+}
