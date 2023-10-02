@@ -7,7 +7,7 @@ public class Comma { ՏՊՈՒՄԱ 90-80-70-60
              System.out.println("h = " + h);
         }
     }
-} ՏՊՈՒՄԱ 90-80-70-60
+} ՏՊՈՒՄԱ 90-80-70-60  Xndir 24
 i = 90
 j = 80
 k = 70
