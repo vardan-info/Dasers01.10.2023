@@ -1,0 +1,18 @@
+//   public class Main {
+//       public static void main(String[] args)   {
+//       int a = 307;
+//         double b = 0.10;
+//         double c = 500;
+//         boolean t = true;
+//         if( a == b +c){
+//             t =true;
+//         }
+//         else{
+//             t =true;
+//         }
+//       System.out.println(a + b + c);
+//       System.out.println(3 + 3 + 3);
+//       System.out.println();
+//   }
+//   47
+//  }
