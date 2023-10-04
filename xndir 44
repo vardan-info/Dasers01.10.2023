@@ -1,0 +1,27 @@
+ public class Main {
+     public static void main(String[] args) {
+   int a = 300;
+   int b = 350;
+   int c= 400;
+   int min = a;
+   int max = b;
+   int sum  = a +b +c;
+   if(b <min){
+       min = b;
+   }
+
+   if (c < min ){
+       min = c;
+   }
+
+   if(a > max){
+       max = a;
+   }
+
+   int med = (a+b+c)-max -min;
+   System.out.println("min=" +min);
+   System.out.println("mijin=" +med);
+   System.out.println("max=" +min);
+   System.out.println(sum);
+ }
+ }
