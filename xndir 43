@@ -1,1 +1,21 @@
 
+public class Main {
+    public static void main(String[] args) {
+        int  k = 300;
+        int a = 400;
+        int b= 500;
+        int c = 600;
+        boolean t = true;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        if(a==b+c){
+            t = true;
+        }
+        else{
+            t = false;
+        }
+
+    }
+
+}
