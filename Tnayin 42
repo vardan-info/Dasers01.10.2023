@@ -1,1 +1,22 @@
-T
+public class Main {
+    public static void main(String[] args) {
+        int k = 400;
+        int a = k%10;
+        int b = k / 100;
+        int c = k/10%10;
+        boolean t = true;
+        System.out.println(a);
+        System.out.println(c);
+        System.out.println(b);
+
+        if(a==b+c){
+            t = true;
+        }
+        else{
+            t = true;
+        }
+
+        System.out.print(t);
+
+    }
+}
