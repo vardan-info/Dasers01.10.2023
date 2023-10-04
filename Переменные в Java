@@ -41,3 +41,143 @@ public class Comma {
 }
 tpuma 30
 ---------------------------------------------------------------------------------------------------------------------------
+public class Comma {
+    public static void main(String[] args) {
+        int k = 400;
+        int a = k%10;
+        int b = k / 100;
+        int c = k/10%10;
+        boolean t = true;
+           System.out.println(a);
+           System.out.println(c);
+           System.out.println(b);
+           
+           if(a==b+c){
+               t = true;
+           }
+           else{
+                t = true;
+           }
+           
+           System.out.print(t);
+        
+    }
+}խնդիր 42
+-------------------------------------------------------------------------------------------------------------------------------------
+xndir 43
+public class Comma {
+    public static void main(String[] args) {
+     int  k = 300;
+     int a = 400;
+     int b= 500;
+     int c = 600;
+     boolean t = true;
+      System.out.println(a);
+      System.out.println(b);
+      System.out.println(c);
+      if(a==b+c){
+          t = true;
+      }
+      else{
+          t = false;
+      }
+        
+    }
+    xndir 43
+}
+-----------------------------------------------------------------------------------------------------------------------------------------
+xndir 43.1
+public class Comma {
+    public static void main(String[] args) {
+    int a = 250;
+    int b= 350;
+    int d = 400;
+    int max = b;
+            if(a < max){
+                max = d;
+            }
+            else{
+               max = b;
+            }
+            
+            if(d > max){
+                max = d;//400
+            }
+                      System.out.print(max);   xndir 43
+
+        
+    }
+    
+}
+---------------------------------------------------------------------------------------------------------------------
+// public class Comma {
+// //     public static void main(String[] args) {
+// //   int a = 300;
+// //   int b = 350;
+// //   int c= 400;
+// //   int sum = a + b +c;
+// //   System.out.println(sum);
+// //   System.out.println(c);
+// // }
+// // }
+xndir 44---------------
+// public class Comma {
+//     public static void main(String[] args) {
+//   int a = 300;
+//   int b = 350;
+//   int c= 400;
+//   int min = a;
+//   int max = b;
+//   int sum  = a +b +c;
+//   if(b <min){
+//       min = b;
+//   }
+   
+//   if (c < min ){
+//       min = c;
+//   }
+   
+//   if(a > max){
+//       max = a;
+//   }
+   
+//   int med = (a+b+c)-max -min;
+//   System.out.println("min=" +min);
+//   System.out.println("mijin=" +med);
+//   System.out.println("max=" +min);
+//   System.out.println(sum);
+// }
+// }xndir 44
+-----------------------------------------------------------------------------------------
+xndir 45
+public class Comma {
+    public static void main(String[] args) {
+  int a = 300;
+  int b = 350;
+  int c= 400;
+  int min = a;
+  int max = b;
+  int sum  = a +b -c;
+  if(b <min){
+      min = b;
+  }
+   
+  if (c < min ){
+      min = c;
+  }
+   
+  if(a > max){
+      max = a;
+  }
+   
+  int med = (a+b+c)-max -min;
+  System.out.println("min=" +min);
+  System.out.println("mijin=" +med);
+  System.out.println("max=" +min);
+  System.out.println(sum);
+}
+}
+
+
+xndir 45
+-------------------------------------------------------------------------------------------------
