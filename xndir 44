@@ -1,27 +1,15 @@
- public class Main {
-     public static void main(String[] args) {
-   int a = 300;
-   int b = 350;
-   int c= 400;
-   int min = a;
-   int max = b;
-   int sum  = a +b +c;
-   if(b <min){
-       min = b;
+   int a = number%10;//6
+   int b = number/ 100;//4
+   int c= number / 10%10;//5    x
+   int max  = a;
+
+   if(b > max ){
+       max = b;
    }
 
-   if (c < min ){
-       min = c;
+   if (c > max){
+      max = c;
    }
-
-   if(a > max){
-       max = a;
-   }
-
-   int med = (a+b+c)-max -min;
-   System.out.println("min=" +min);
-   System.out.println("mijin=" +med);
-   System.out.println("max=" +min);
-   System.out.println(sum);
+     System.out.print(max);
  }
  }
