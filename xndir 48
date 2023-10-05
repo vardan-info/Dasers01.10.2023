@@ -1,14 +1,22 @@
-public class Comma {
-      public static void main(String[] args)   {
-      int a = 400;
-      int b = a/10;
-      int f = a%10;
-      
-       System.out.println(a);
-       System.out.println(b);
-       System.out.println(f);
-      
-  }
-   
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+    public static void main(String[] args)   {
+
+        int number = 517;
+        int a = number %10;//7
+        int b = number /100;//5
+        int c = number / 10%10;//1
+        char f = 'a';
+
+        if(a  +b  < 5){
+            f = 'a';
+        }
+        else{
+            f = 'b';
+        }
+      System.out.print(f);
+    }
+
 }
 
