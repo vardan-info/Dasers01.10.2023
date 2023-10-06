@@ -1,4 +1,4 @@
-//   public class Main {
+//   public class Main {sxalna
 //       public static void main(String[] args)   {
 //       int a = 307;
 //         double b = 0.10;
@@ -16,3 +16,30 @@
 //   }
 //   47
 //  }
+
+-----------------------------------------------ճիշտնա
+public class Main {
+    public static void main(String[] args) {
+        int  number = 317;
+        int k = 300;
+        int  a = number%10;//7
+        int  b = number / 100 ;//3
+        int c = number / 10%10;//1
+    if(number > 300 || k > c){
+        System.out.println(a + b +c);
+        
+    }
+    else{
+         System.out.print(731);
+    }
+    
+    if(a > b){
+        System.out.println("3 = " + "1 = "  + 7); 
+                           
+    }
+    System.out.println(317);
+
+    
+    }
+
+}
