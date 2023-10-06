@@ -16,7 +16,7 @@ public class Main {
     }
 }
 
-
+------------------------------------------taza
 public class MyClass {
   public static void main(String[] args) {
         int number = 215;
@@ -43,10 +43,40 @@ public class MyClass {
           else{
               System.out.println("che");
           }                             
-           
-       
-
+    
         
+  }
+        
+  }
+--------------------------------------------------taza
+
+public class MyClass {
+  public static void main(String[] args) {
+        int number = 215;
+        
+        int a = number %10;//5
+        int b = number /100;//2
+        int c = number / 10%10;//1
+         System.out.println(215 + 100);
+         System.out.println(100);
+        
+        
+        if(number > a  ){
+            System.out.println("meca1");
+        }
+        
+        else{
+           System.out.println("mec2");
+        }
+           
+         if(b > c){
+             System.out.println("b meca c ic");
+         }
+
+        else{
+         System.out.println("100 meca 10");
+
+        }
   }
         
   }
