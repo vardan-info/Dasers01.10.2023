@@ -1,21 +1,20 @@
-
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        int  k = 300;
-        int a = 400;
-        int b= 500;
-        int c = 600;
-        boolean t = true;
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        if(a==b+c){
-            t = true;
-        }
-        else{
-            t = false;
-        }
-
+        int  number = 317;
+        int k = 54;
+        int  a = number%10;//7
+        int  b = number / 100 ;//3
+        int c = number / 10%10;//1
+    if(number > k  ){
+        System.out.print(number / (a + b +c));
+    }
+    else{
+        System.out.print(a / number);
+    }
     }
 
 }
+
+
