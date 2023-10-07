@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String[] args)   {
+
+        int number = 5170;
+        int a = number %10;//7
+        int b = number /100;//5
+        int c = number / 10%10;//1
+        char y = 's';
+
+        if(a  +b  < 5){
+           y = 's';
+        }
+        else{
+            y = 'b';
+        }
+      System.out.print(y);
+    }
+
+}
