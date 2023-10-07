@@ -1,0 +1,15 @@
+
+public class Program{
+    public static void main (String args[]){
+        int a=1111;
+        int b=2222;
+        int y=3333;
+       
+         System.out.println("NO=" + 1111);
+         
+     
+         
+        
+    }
+}
+
