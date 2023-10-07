@@ -1,0 +1,17 @@
+public class Program{
+     public static void main (String args[]){
+        int y=0;
+         int b=200;
+         int c = 9876;
+          System.out.println(9*8*7*6);
+          if(c > b || b > c || b > c){
+         System.out.println("f");
+        
+      }
+      else{
+           System.out.print(y);
+      }
+            
+     }
+     
+}
