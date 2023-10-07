@@ -1,0 +1,23 @@
+public class Program{
+    public static void main (String args[]){
+        int a=2527;
+        int b=228;
+        int c = 25;
+        int sum = 2 * 5 * 2* 7;
+        int number = 2 * 2 * 8;
+         System.out.println(2 * 5 * 2* 7);
+         System.out.print(2 * 2 * 8);
+         
+         if(number > c || sum > c || a > c){
+        System.out.println("f");
+        
+    }
+    else{
+         System.out.print(a);
+    }
+            
+     }
+         
+         
+    
+}
