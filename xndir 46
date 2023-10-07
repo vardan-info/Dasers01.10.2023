@@ -1,20 +1,3 @@
-public class Main {
-    public static void main(String[] args) {
-        int a = 300;
-        int b = 350;
-        int c= 400;//9
-//   int o = 0.1;/
-        int sum = a +b+c;
-        int max= c;
-
-        if(a < b){
-            max = c;
-        }
-        System.out.println(sum);
-        System.out.println(9);
-
-    }
-}
 
 ------------------------------------------taza
 public class MyClass {
