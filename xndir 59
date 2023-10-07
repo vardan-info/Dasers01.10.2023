@@ -1,0 +1,22 @@
+public class Program{
+     public static void main (String args[]){
+        int y=1;
+         int b=5897;
+         int c = 20;
+         int sum = 5+8+9+7;
+          System.out.println(5+8+9+7);
+          
+         
+          if(sum > c || b > c || b > c){
+         System.out.println("f");
+        
+     }
+     else{
+          System.out.print(y);
+     }
+            
+     }
+     
+}
+
+
