@@ -1,13 +1,28 @@
-public class Program{
-    public static void main (String args[]){
-        int a=10;
-        int b=11;
-        int y=12;
-       
-         System.out.println("y=" + 12);
-         
-     
-         
+public class Main {
+    public static void main(String[] args) {
+        int  number = 317;
+        int k = 12;
+        int  a = number%10;//7
+        int  b = number / 100 ;//3
+        int c = number / 10%10;//1
+    if(number > 12 || k < c){
+        System.out.println(a * b *c);
         
     }
-}y=12
+    else{
+         System.out.println("y=12");
+    }
+    
+    if(a > b){
+        System.out.println("3 = " + "1 = "  + 7); 
+                           
+    }
+    
+   System.out.println("y=0");
+    
+    }
+
+}
+21
+3 = 1 = 7
+y=0
