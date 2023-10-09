@@ -1,14 +1,4 @@
-public class Program{
-    public static void main (String args[]){
-        int a=101;
-        int b=102;
-        int c=103;
-        int d=104;
-        int e=105;
-       
-         System.out.println("e=" + e);
-         System.out.println("d=" + d);
-         System.out.println("c=" + c);public class Main {
+public class Main {
     public static void main(String[] args) {
         int a=578;
         int b = a %10;//8
@@ -44,26 +34,3 @@ public class Program{
 
 }
 
-
-         System.out.println("b=" + b);
-         System.out.println("a=" + a);
-         System.out.println(e--);
-         System.out.println(d--);
-        System.out.println(c--);
-         System.out.println(b--);
-         System.out.println(a--);
-         
-        
-    }
-}
-
-e=105
-d=104
-c=103
-b=102
-a=101
-105
-104
-103
-102
-101
