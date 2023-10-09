@@ -8,7 +8,43 @@ public class Program{
        
          System.out.println("e=" + e);
          System.out.println("d=" + d);
-         System.out.println("c=" + c);
+         System.out.println("c=" + c);public class Main {
+    public static void main(String[] args) {
+        int a=578;
+        int b = a %10;//8
+        int c = a / 100;//5
+        int d = a / 10%10;//7
+        int max = d;//7
+        int min = b;//8
+
+        if ( b > max ){
+            max = b;
+        }
+        if(c > max){
+            max= c;
+        }
+
+
+        if(c < min){
+            min = c;
+        }
+
+        if(d < min){
+            min =d;
+        }
+        int midle = (b +c +d) - max - min;
+        System.out.println(max);
+        System.out.println(midle);
+        System.out.println(min);
+
+
+    }
+
+
+
+}
+
+
          System.out.println("b=" + b);
          System.out.println("a=" + a);
          System.out.println(e--);
