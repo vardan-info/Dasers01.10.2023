@@ -17,3 +17,23 @@ public class Main {
     }
 
 }
+taza-----------
+public class Main {
+     public static void main(String[] args) {
+       int l =  9875;
+       
+       int a = l%10;//5
+       int b = l/1000;//9
+       int c = l /100%10;//8
+       int d = l /10%10;//7
+       char y = 's';
+
+       if (a + b==c+d){
+           System.out.print(d);
+           
+       }
+       
+         System.out.print(y);
+
+}
+}
