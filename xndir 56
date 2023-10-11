@@ -1,15 +1,24 @@
+////public class Main {
+////    public static void main(String[] args) {
+////        int  number = 4567;
+////        int  a = number%10;//7
+////        int  b = number /1000;//4
+////        int c = number /100%10;//5
+////        int d= number /10%10;//6
+////        if(a == b){
+////            System.out.print("chorsy havasar e chorsi");
+////        }
+////        else{
+////            System.out.print("no");
+////        }
+////
+////        if( c == d){
+////            System.out.print("Yes");
+////        }
+////
+////    }
+//
+//}
 
-public class Program{
-    public static void main (String args[]){
-        int a=1111;
-        int b=2222;
-        int y=3333;
-       
-         System.out.println("NO=" + 1111);
-         
-     
-         
-        
-    }
-}
+
 
