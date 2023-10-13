@@ -2,10 +2,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        int sum = 60;
-        int a = 20;
-        for (int  i = 0; i < 20; i++) {
-               System.out.println(sum + a );
+        int sum = 20;
+        int a = 60;
+        for (int  i = 20; i < 61; i++) {
+
+               System.out.println(i);
 
 
 
