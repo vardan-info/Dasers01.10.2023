@@ -1,0 +1,19 @@
+/*package whatever //do not write package name here */
+
+import java.io.*;
+
+class GFG {
+	public static void main (String[] args) {
+    int n = 11;
+   int sum = 33;
+   
+   for(int i= 11; i < 33; i++){
+       if(sum%i==0){
+           sum/=i;
+       }
+       
+   }
+   
+   System.out.println(sum);
+}
+	}
