@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        int sum = 418;//3
+        int n = 400;//2
+   
+   for(int i= 400; i < 418; i++){
+       if(n/i==0){
+        sum+=n;
+       }
+       
+   }
+   
+   System.out.printl(sum);
+}
+	}
