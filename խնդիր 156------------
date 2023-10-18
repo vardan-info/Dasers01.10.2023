@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+    int n = 900;//3
+   int sum = 150;//150
+   
+   for(int i= 60; i > 50; i++){
+       if(sum*i==60){
+           sum*=i;
+       }
+       
+   }
+   
+   System.out.println(sum);
+}
+	}
