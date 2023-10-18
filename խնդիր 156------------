@@ -1,12 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-    int n = 900;//3
-   int sum = 150;//150
+    int n = 5;//3
+   int sum = 3;//150
    
-   for(int i= 60; i > 50; i++){
-       if(sum*i==60){
-           sum*=i;
+   for(int i= 3; i > 5; i++){
+       if( n *150!= sum *900){
+           sum+=i;
        }
+       
        
    }
    
