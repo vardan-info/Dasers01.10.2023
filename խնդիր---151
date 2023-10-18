@@ -1,0 +1,17 @@
+import java.io.*;
+
+class GFG {
+	public static void main (String[] args) {
+    int n = 20;
+   int sum = 20;
+   
+   for(int i= 20; i < 1; i++){
+       if(sum%i==0){
+           sum+=n;
+       }
+       
+   }
+   
+   System.out.println(sum);
+}
+	}
